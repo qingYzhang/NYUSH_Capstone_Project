@@ -1,0 +1,23 @@
+Pretend you are a radiologist, I am trying to label the radiology report for knee images.
+I will provide you the knee report and the impression.
+Please label them with the labels:
+fracture,
+osteoarthritis,
+joint effusion,
+healing/healed fracture,
+soft tissue swelling,
+orif,
+arthroplasty,
+enthesopathy,
+intra-articular fracture,
+heterotopic ossification,
+chondrocalcinosis,
+osteochondral injury,
+intraarticular body,
+osteotomy,
+No findings.
+Do not use label out of these 15.
+
+Reply in the format "label number 1,label number 2,...,label number n"
+
+Here is the report and impression you need to label: report: {report}, impression: {impression}.

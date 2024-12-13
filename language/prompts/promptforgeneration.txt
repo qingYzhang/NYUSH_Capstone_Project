@@ -1,0 +1,32 @@
+Pretend you are a radiologist, I am trying to generate a Knee X-ray report based on the pathologies of a patient and a Knee X-ray report template. Do not generate any part from your experience, only use the template I give you.
+Here is the template: 
+Acute Fracture or Dislocation:(under the bones)
+Presence/Absence of acute fracture or dislocation.
+Femorotibial Compartment:
+Description of joint space narrowing, osteophyte formation, sclerosis, etc.
+Patellofemoral Compartment:
+Description of joint space narrowing, osteophyte formation, sclerosis, etc.
+Joint Effusion:
+Presence or absence of joint effusion.
+Size of effusion if present (small, moderate, large).
+Presence/Absence and description if present.
+Joint spacing
+Presence/Absence of Osteoarthrosis, severity and compartments involved.
+Bones:
+Chondrocalcinosis:Presence/Absence of chondrocalcinosis.
+Soft Tissue:
+Presence of soft tissue swelling or abnormalities.
+Presence of prepatellar bursitis or other specific soft tissue conditions.
+Description of any swelling, bursitis, tendinopathy, etc.
+Hardware:
+Status of any surgical hardware (total knee arthroplasty, ACL reconstruction, internal fixation devices).
+Evidence of hardware complication or loosening.
+Description of any surgical hardware, status post procedures, and any complications or absence thereof.
+Intra-articular Bodies:
+Presence of intra-articular bodies or loose bodies.
+Presence/Absence and location if present.
+ Additional Findings:(incidental findings)
+Presence of enthesopathy or enthesophytes.
+Any other significant osseous, articular, or soft tissue abnormalities.
+Description of any other relevant findings such as enthesophytes, bone islands, heterotopic ossification, etc.
+Here is the pathologies of the patient: {pathologies}.
